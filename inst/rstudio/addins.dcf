@@ -1,0 +1,27 @@
+Name: Load Rmd cached chunks
+Description: Load cached chunks if available
+Binding: readKnitrCache
+Interactive: false
+
+Name: Source Rmd
+Description: Knit and source current Rmd file
+Binding: sourceKnitr
+Interactive: false
+
+
+Name: Insert magrittr tee pipe operator %T>%
+Description: Insert magrittr tee pipe operator %T>%
+Binding: insertTeeOperator
+Interactive: false
+
+
+Name: Insert magrittr compound assignment pipe operator %<>%
+Description: Insert magrittr compound assignment pipe operator %<>%
+Binding: insertCompoundAssignmentOperator
+Interactive: false
+
+
+Name: Insert magrittr exposition pipe operator %$%
+Description: Insert magrittr exposition pipe operator %$%
+Binding: insertExpositionOperator
+Interactive: false
