@@ -4,7 +4,7 @@
 #'
 #' @export
 insertTeeOperator <- function() {
-   rstudioapi::insertText("%T>% ")
+   rstudioapi::insertText(" %T>% ")
 }
 
 #' Insert magrittr's compound assignment operator \%<>\%
@@ -13,7 +13,7 @@ insertTeeOperator <- function() {
 #'
 #' @export
 insertCompoundAssignmentOperator <- function() {
-   rstudioapi::insertText("%<>% ")
+   rstudioapi::insertText(" %<>% ")
 }
 
 #' Insert magrittr's exposition operator \%$\%
@@ -22,6 +22,14 @@ insertCompoundAssignmentOperator <- function() {
 #'
 #' @export
 insertExpositionOperator <- function() {
-   rstudioapi::insertText("%$% ")
+   rstudioapi::insertText(" %$% ")
 }
 
+#' Insert left-to-right assignment operator ->
+#'
+#' Call this function as an addin to insert \code{->} at the cursor position.
+#'
+#' @export
+insertRightAssignmentOperator <- function() {
+   rstudioapi::insertText(" -> ")
+}

@@ -25,6 +25,12 @@ Description: Insert magrittr exposition pipe operator %$%
 Binding: insertExpositionOperator
 Interactive: false
 
+Name: Insert left-to-right assignment operator ->
+Description: Insert left-to-right assignment operator ->
+Binding: insertRightAssignmentOperator
+Interactive: false
+
+
 
 Name: Insert browser() call
 Description: Insert browser() call

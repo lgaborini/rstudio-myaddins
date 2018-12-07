@@ -1,9 +1,10 @@
-#' Title
+#' Source the current .Rmd file
 #'
-#' @return
+#' Source the current .Rmd file as if it were a R script.
+#' 
+#' All variables are loaded into the global environment.
+#' 
 #' @export
-#'
-#' @examples
 sourceKnitr <- function() {
 
    # Grab current file
