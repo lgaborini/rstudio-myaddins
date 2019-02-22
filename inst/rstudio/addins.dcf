@@ -11,7 +11,7 @@ Interactive: false
 Name: Run Shiny document in current session
 Description: Run Shiny document in current session, enabling browser() calls
 Binding: runShinyMarkdown
-Interactive: false
+Interactive: true
 
 Name: Insert magrittr tee pipe operator %T>%
 Description: Insert magrittr tee pipe operator %T>%
