@@ -1,4 +1,4 @@
-#' Read cached chunks from this .Rmd
+#' Read cached chunks from this .Rmd in this session
 #'
 #' Read cached chunks from this .Rmd. All variables are loaded into the global environment.
 #'

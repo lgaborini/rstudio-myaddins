@@ -2,7 +2,7 @@
 % Please edit documentation in R/readKnitrCache.R
 \name{readKnitrCache}
 \alias{readKnitrCache}
-\title{Read cached chunks from this .Rmd}
+\title{Read cached chunks from this .Rmd in this session}
 \usage{
 readKnitrCache()
 }

@@ -1,5 +1,5 @@
-Name: Load Rmd cached chunks
-Description: Load cached chunks if available
+Name: Load Rmd cached chunks in this session
+Description: Load Rmarkdown cached chunks in this session if available
 Binding: readKnitrCache
 Interactive: false
 
@@ -32,8 +32,6 @@ Name: Insert left-to-right assignment operator ->
 Description: Insert left-to-right assignment operator ->
 Binding: insertRightAssignmentOperator
 Interactive: false
-
-
 
 Name: Insert browser() call
 Description: Insert browser() call
