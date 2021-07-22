@@ -38,3 +38,9 @@ Description: Insert browser() call
 Binding: insertDebugBrowser
 Interactive: false
 
+Name: View() under cursor
+Description: Call View() for the symbol under the cursor
+Binding: viewUnderCursor
+Interactive: false
+
+
